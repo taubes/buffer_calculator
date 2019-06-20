@@ -1,7 +1,7 @@
 <?php
 /*
 	Script generated June 2019 by Stefan Taube / University of Luebeck
-	Copy Number Calculator Script - in progress
+	Copy Number Calculator Script - work in progress
 */
 
 // /*
@@ -30,6 +30,7 @@ echo <<<EOT
 	</style>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script>
+	
 	function roundToTwo(num) {    
 	    return +(Math.round(num + "e+2")  + "e-2");
 	}	
@@ -176,55 +177,53 @@ echo <<<EOT
 	</script>
 	</head>
 	<body>
-	<center><h1> Buffer Dilution Calculator </h1></center>
-	<p id="msg" align="center">You need to provide 3 out of 4 values</p>
+	<center><h1> Copy Number Dilution Calculator </h1></center>
 	<table align="center">
 	<tr>
 	<td>
-		Stock concentration: 
+		DNA Concentration: 
 	</td>
 	<td>
-		<input type="text" name="c1" id="c1"> 
+		<input type="text" name="conc" id="conc"> 
 	</td>
 	<td>
-	<select id="c1s">
-		<option value="1">M Molar</option>
-		<option value="1000" selected>mM Millimolar</option>
-		<option value="1000000">µM Micromolar</option>
-		<option value="1000000000">nM Nanomolar</option>
-		<option value="1000000000000">pM Picomolar</option>
+	<select id="concs">
+		<option value="1">g gram</option>
+		<option value="1000" selected>mg millimgram</option>
+		<option value="1000000">µg microgram</option>
+		<option value="1000000000">ng nanogram</option>
+		<option value="1000000000000">pg picogram</option>
 	</select>
 	</td>
 	</tr>
 	<tr>
 	<td>
-		Stock Volume: 
+		Base pairs (bp): 
 	</td>
 	<td>
-		<input type="text" name="v1" id="v1">
+		<input type="text" name="bp" id="bp">
 	</td>
 	<td>
-	<select id="v1s">
-		<option value="1">L liter</option>
-		<option value="1000" selected>ml milliliter</option>
-		<option value="1000000">µl microliter</option>
+	<select id="bps">
+		<option value="1" selected>bp</option>
+		<option value="0.5" >nt</option>
 	</select>
 	</td>
 	</tr>
 	<tr>
 	<td>
-		Desired concentration: 
+		MOlecular weight: 
 	</td>
 	<td>
-		<input type="text" name="c2" id="c2"> 
+		<input type="text" name="mw" id="mw"> 
 	</td>
 	<td>
-	<select id="c2s">
-		<option value="1">M Molar</option>
-		<option value="1000" selected>mM Millimolar</option>
-		<option value="1000000">µM Micromolar</option>
-		<option value="1000000000">nM Nanomolar</option>
-		<option value="1000000000000">pM Picomolar</option>														
+	<select id="mws">
+		<option value="1" selected>g/mol</option>
+		<option value="1000" >g/mmol</option>
+		<option value="1000000">g/µol</option>
+		<option value="1000000000">g/nmol</option>
+		<option value="1000000000000">g/pmol</option>														
 																
 	</select>
 	</td>
