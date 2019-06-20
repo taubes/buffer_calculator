@@ -4,6 +4,18 @@
 	Buffer Dilution Calculator Script
 */
 
+// /*
+// ***********************************************************************************
+// TaubeLab (TaubeLab) https://taubelab.de/
+// Copyright (C) 20019 Stefan Taube
+// 
+// This program is distributed "as is" and WITHOUT ANY WARRANTY, either expressed or implied, without even the implied warranties of merchantability or fitness for a particular purpose.
+//
+// This program is distributed under the terms of the MIT license, which is included in this repository (https://github.com/taubes/buffer_calculator/). 
+//
+// For all the details see "LICENSE.md".
+// ***********************************************************************************
+// */
 
 
 //if(!defined('custom_page_from_inclusion')) { die(); }
