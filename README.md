@@ -1,5 +1,4 @@
-# buffer_calculator
-Buffer Dilution Calculator
+# Buffer Dilution Calculator
 
 - JQuery
 - JavaScript
