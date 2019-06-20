@@ -15,7 +15,7 @@ echo <<<EOT
 			padding: 2px 2px 2px 2px !important;
 		}
 	</style>	
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script>
 	function roundToTwo(num) {    
 	    return +(Math.round(num + "e+2")  + "e-2");
