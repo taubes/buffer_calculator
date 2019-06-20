@@ -177,7 +177,8 @@ echo <<<EOT
 	</script>
 	</head>
 	<body>
-	<center><h1> Copy Number Dilution Calculator </h1></center>
+	<center><h1> Copy Number Dilution Calculator </h1><br>
+	<h3>Work in Progress</h3></center>
 	<table align="center">
 	<tr>
 	<td>
