@@ -254,7 +254,7 @@ echo <<<EOT
 	</table>
 	<center>
 	<p style="font-size: 9pt;">
-	<br>This buffer dilution calculator rounds to two digits. <br>I have checked the calculations but use at your own risk and recheck. <br> Please  let me know if you encounter any erros.
+	<br>This buffer dilution calculator rounds to two digits. <br>Use at your own risk and recheck the results. <br> Please  let me know if you encounter any erros.
 	<p style="font-size: 9pt;">
 	Copyright 2019 Stefan Taube at <a href='https://taubelab.de' target='_blank'> TaubeLab.de </a>
 	</body>
